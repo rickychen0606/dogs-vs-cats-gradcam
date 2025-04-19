@@ -38,5 +38,5 @@
 ## 🙌 作者
 
 Ricky Chen  
-Email: your@email.com
+Email: rickychen0606@gmail.com
 
