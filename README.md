@@ -42,9 +42,6 @@ data_split/
 └── test/
 └── unknown/
 
-yaml
-複製
-編輯
 
 Data loading and augmentation are done using `ImageDataGenerator` with a validation split of 0.2.
 
