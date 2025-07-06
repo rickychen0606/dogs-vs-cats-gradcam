@@ -39,14 +39,16 @@ yaml
 
 The dataset is organized in a Keras-compatible format:
 
+```
 data_split/
 ├── train/
-│   ├── cat/
-│   └── dog/
+│ ├── cat/
+│ └── dog/
 ├── test/
-│   ├── cat/
-│   └── dog/
+│ ├── cat/
+│ └── dog/
 └── unknown/
+```
 
 🔹 Data is loaded using `ImageDataGenerator` with a validation split of 0.2.
 
