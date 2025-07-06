@@ -7,6 +7,10 @@ This project implements an image classification pipeline using three pre-trained
 
 ---
 
+You can download the original dataset from:
+https://www.kaggle.com/c/dogs-vs-cats/data
+
+
 ## 🎯 Project Objectives
 
 - Use transfer learning to perform binary classification on the [Kaggle Dogs vs. Cats dataset](https://www.kaggle.com/c/dogs-vs-cats).
@@ -37,10 +41,13 @@ Dataset is organized in a Keras-compatible structure:
 
 data_split/
 ├── train/
-│ ├── cat/
-│ └── dog/
-└── test/
+│   ├── cat/
+│   └── dog/
+├── test/
+│   ├── cat/
+│   └── dog/
 └── unknown/
+
 
 
 Data loading and augmentation are done using `ImageDataGenerator` with a validation split of 0.2.
