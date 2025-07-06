@@ -35,9 +35,9 @@ yaml
 
 ---
 
-## 📦 Dataset Structure
+## 📂 Dataset Structure
 
-Dataset is organized in a Keras-compatible structure:
+The dataset is organized in a Keras-compatible format:
 
 data_split/
 ├── train/
@@ -47,6 +47,9 @@ data_split/
 │   ├── cat/
 │   └── dog/
 └── unknown/
+
+🔹 Data is loaded using `ImageDataGenerator` with a validation split of 0.2.
+
 
 
 
